@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF010BD31CFBD29A0054EDCC /* AddIvarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF010BD21CFBD29A0054EDCC /* AddIvarTest.m */; };
+		DF010BD61CFC2EFB0054EDCC /* PropertyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF010BD51CFC2EFB0054EDCC /* PropertyTest.m */; };
+		DF010BD91CFC30250054EDCC /* FunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF010BD81CFC30250054EDCC /* FunctionTest.m */; };
 		DFB5A3581CF6E25C00364B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A3571CF6E25C00364B21 /* main.m */; };
 		DFB5A35B1CF6E25C00364B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A35A1CF6E25C00364B21 /* AppDelegate.m */; };
 		DFB5A35E1CF6E25C00364B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A35D1CF6E25C00364B21 /* ViewController.m */; };
@@ -15,6 +18,9 @@
 		DFB5A3661CF6E25C00364B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB5A3641CF6E25C00364B21 /* LaunchScreen.storyboard */; };
 		DFB5A3711CF6E25C00364B21 /* runtimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A3701CF6E25C00364B21 /* runtimeDemoTests.m */; };
 		DFB5A37C1CF6E25C00364B21 /* runtimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A37B1CF6E25C00364B21 /* runtimeDemoUITests.m */; };
+		DFFC20C41CFEC0B800EEBB8B /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C31CFEC0B800EEBB8B /* UIViewController+Extension.m */; };
+		DFFC20C71CFEC5A900EEBB8B /* KVOTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */; };
+		DFFC20CA1CFEC9DC00EEBB8B /* IMPWithBlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF010BD11CFBD29A0054EDCC /* AddIvarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIvarTest.h; sourceTree = "<group>"; };
+		DF010BD21CFBD29A0054EDCC /* AddIvarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIvarTest.m; sourceTree = "<group>"; };
+		DF010BD41CFC2EFB0054EDCC /* PropertyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyTest.h; sourceTree = "<group>"; };
+		DF010BD51CFC2EFB0054EDCC /* PropertyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyTest.m; sourceTree = "<group>"; };
+		DF010BD71CFC30250054EDCC /* FunctionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTest.h; sourceTree = "<group>"; };
+		DF010BD81CFC30250054EDCC /* FunctionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionTest.m; sourceTree = "<group>"; };
 		DFB5A3531CF6E25C00364B21 /* runtimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB5A3571CF6E25C00364B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFB5A3591CF6E25C00364B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +64,12 @@
 		DFB5A37B1CF6E25C00364B21 /* runtimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeDemoUITests.m; sourceTree = "<group>"; };
 		DFB5A37D1CF6E25C00364B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB5A3891CF6E2F200364B21 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DFFC20C21CFEC0B800EEBB8B /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		DFFC20C31CFEC0B800EEBB8B /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		DFFC20C51CFEC5A900EEBB8B /* KVOTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOTestClass.h; sourceTree = "<group>"; };
+		DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTestClass.m; sourceTree = "<group>"; };
+		DFFC20C81CFEC9DC00EEBB8B /* IMPWithBlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPWithBlockTest.h; sourceTree = "<group>"; };
+		DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPWithBlockTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +124,18 @@
 				DFB5A35A1CF6E25C00364B21 /* AppDelegate.m */,
 				DFB5A35C1CF6E25C00364B21 /* ViewController.h */,
 				DFB5A35D1CF6E25C00364B21 /* ViewController.m */,
+				DFFC20C21CFEC0B800EEBB8B /* UIViewController+Extension.h */,
+				DFFC20C31CFEC0B800EEBB8B /* UIViewController+Extension.m */,
+				DF010BD11CFBD29A0054EDCC /* AddIvarTest.h */,
+				DF010BD21CFBD29A0054EDCC /* AddIvarTest.m */,
+				DF010BD41CFC2EFB0054EDCC /* PropertyTest.h */,
+				DF010BD51CFC2EFB0054EDCC /* PropertyTest.m */,
+				DF010BD71CFC30250054EDCC /* FunctionTest.h */,
+				DF010BD81CFC30250054EDCC /* FunctionTest.m */,
+				DFFC20C51CFEC5A900EEBB8B /* KVOTestClass.h */,
+				DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */,
+				DFFC20C81CFEC9DC00EEBB8B /* IMPWithBlockTest.h */,
+				DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */,
 				DFB5A35F1CF6E25C00364B21 /* Main.storyboard */,
 				DFB5A3621CF6E25C00364B21 /* Assets.xcassets */,
 				DFB5A3641CF6E25C00364B21 /* LaunchScreen.storyboard */,
@@ -272,9 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF010BD61CFC2EFB0054EDCC /* PropertyTest.m in Sources */,
 				DFB5A35E1CF6E25C00364B21 /* ViewController.m in Sources */,
+				DFFC20C41CFEC0B800EEBB8B /* UIViewController+Extension.m in Sources */,
+				DFFC20CA1CFEC9DC00EEBB8B /* IMPWithBlockTest.m in Sources */,
 				DFB5A35B1CF6E25C00364B21 /* AppDelegate.m in Sources */,
+				DF010BD91CFC30250054EDCC /* FunctionTest.m in Sources */,
 				DFB5A3581CF6E25C00364B21 /* main.m in Sources */,
+				DF010BD31CFBD29A0054EDCC /* AddIvarTest.m in Sources */,
+				DFFC20C71CFEC5A900EEBB8B /* KVOTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = runtimeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -425,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = runtimeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,6 +538,7 @@
 				DFB5A3821CF6E25C00364B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFB5A3831CF6E25C00364B21 /* Build configuration list for PBXNativeTarget "runtimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +547,7 @@
 				DFB5A3851CF6E25C00364B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFB5A3861CF6E25C00364B21 /* Build configuration list for PBXNativeTarget "runtimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +556,7 @@
 				DFB5A3881CF6E25C00364B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

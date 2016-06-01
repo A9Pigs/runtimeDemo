@@ -12,6 +12,18 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import <objc/runtime.h>
+#import <objc/message.h>
+
+
+#define PERFORMSELECTOR_IGNOR_LEAD_AND_UNDECLARED_BEGIN \
+\
+_Pragma("clang diagnostic push")      \
+_Pragma("clang diagnostic ignored \"-Wundeclared-selector\"")              \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"")
+
+#define PERFORMSELECTOR_IGNOR_LEAD_AND_UNDECLARED_END       _Pragma("clang diagnostic pop")
+
+
 
 #endif /* PrefixHeader_pch */
 
