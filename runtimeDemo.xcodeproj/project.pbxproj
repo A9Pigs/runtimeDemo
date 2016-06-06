@@ -21,6 +21,8 @@
 		DFFC20C41CFEC0B800EEBB8B /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C31CFEC0B800EEBB8B /* UIViewController+Extension.m */; };
 		DFFC20C71CFEC5A900EEBB8B /* KVOTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */; };
 		DFFC20CA1CFEC9DC00EEBB8B /* IMPWithBlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */; };
+		DFFC20CD1CFFDD0000EEBB8B /* OperationQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20CC1CFFDD0000EEBB8B /* OperationQueueTest.m */; };
+		DFFC20D01D01187900EEBB8B /* NSObject+MsgSendTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC20CF1D01187900EEBB8B /* NSObject+MsgSendTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTestClass.m; sourceTree = "<group>"; };
 		DFFC20C81CFEC9DC00EEBB8B /* IMPWithBlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPWithBlockTest.h; sourceTree = "<group>"; };
 		DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPWithBlockTest.m; sourceTree = "<group>"; };
+		DFFC20CB1CFFDD0000EEBB8B /* OperationQueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationQueueTest.h; sourceTree = "<group>"; };
+		DFFC20CC1CFFDD0000EEBB8B /* OperationQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationQueueTest.m; sourceTree = "<group>"; };
+		DFFC20CE1D01187900EEBB8B /* NSObject+MsgSendTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MsgSendTest.h"; sourceTree = "<group>"; };
+		DFFC20CF1D01187900EEBB8B /* NSObject+MsgSendTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MsgSendTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,8 @@
 				DFB5A35D1CF6E25C00364B21 /* ViewController.m */,
 				DFFC20C21CFEC0B800EEBB8B /* UIViewController+Extension.h */,
 				DFFC20C31CFEC0B800EEBB8B /* UIViewController+Extension.m */,
+				DFFC20CE1D01187900EEBB8B /* NSObject+MsgSendTest.h */,
+				DFFC20CF1D01187900EEBB8B /* NSObject+MsgSendTest.m */,
 				DF010BD11CFBD29A0054EDCC /* AddIvarTest.h */,
 				DF010BD21CFBD29A0054EDCC /* AddIvarTest.m */,
 				DF010BD41CFC2EFB0054EDCC /* PropertyTest.h */,
@@ -136,6 +144,8 @@
 				DFFC20C61CFEC5A900EEBB8B /* KVOTestClass.m */,
 				DFFC20C81CFEC9DC00EEBB8B /* IMPWithBlockTest.h */,
 				DFFC20C91CFEC9DC00EEBB8B /* IMPWithBlockTest.m */,
+				DFFC20CB1CFFDD0000EEBB8B /* OperationQueueTest.h */,
+				DFFC20CC1CFFDD0000EEBB8B /* OperationQueueTest.m */,
 				DFB5A35F1CF6E25C00364B21 /* Main.storyboard */,
 				DFB5A3621CF6E25C00364B21 /* Assets.xcassets */,
 				DFB5A3641CF6E25C00364B21 /* LaunchScreen.storyboard */,
@@ -303,10 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF010BD61CFC2EFB0054EDCC /* PropertyTest.m in Sources */,
+				DFFC20D01D01187900EEBB8B /* NSObject+MsgSendTest.m in Sources */,
 				DFB5A35E1CF6E25C00364B21 /* ViewController.m in Sources */,
 				DFFC20C41CFEC0B800EEBB8B /* UIViewController+Extension.m in Sources */,
 				DFFC20CA1CFEC9DC00EEBB8B /* IMPWithBlockTest.m in Sources */,
 				DFB5A35B1CF6E25C00364B21 /* AppDelegate.m in Sources */,
+				DFFC20CD1CFFDD0000EEBB8B /* OperationQueueTest.m in Sources */,
 				DF010BD91CFC30250054EDCC /* FunctionTest.m in Sources */,
 				DFB5A3581CF6E25C00364B21 /* main.m in Sources */,
 				DF010BD31CFBD29A0054EDCC /* AddIvarTest.m in Sources */,

@@ -55,6 +55,10 @@
         [self logIvars];
         
         [self logIvarlayout];
+        
+        NSLog(@"%@",NSStringFromClass([self class]));
+        NSLog(@"%@",NSStringFromClass([super class]));
+        NSLog(@"%@",NSStringFromClass(class_getSuperclass(objc_getClass("AddIvarTest"))));
     }
     return self;
 }

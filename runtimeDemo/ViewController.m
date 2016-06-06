@@ -12,6 +12,10 @@
 #import "PropertyTest.h"
 #import "FunctionTest.h"
 #import "IMPWithBlockTest.h"
+
+
+#import "OperationQueueTest.h"
+
 @interface ViewController ()
 
 @end
@@ -84,6 +88,12 @@ void nameSetter(id instance , SEL cmd , NSString *newName) {
     [self addClassDynamic];
     
     [self testIMPWithBlock];
+    
+    [OperationQueueTest test];
+    
+    PERFORMSELECTOR_IGNOR_LEAD_AND_UNDECLARED_BEGIN
+    [self performSelector:@selector(unrecginzedSelctorViewController) withObject:nil];
+    PERFORMSELECTOR_IGNOR_LEAD_AND_UNDECLARED_END
 }
 
 - (void)testDynamicAddProperty {
